@@ -1,0 +1,20 @@
+﻿RevitAddIn1
+1.0.0.0
+
+library
+C#
+.cs
+C:\Users\Linh\Documents\GitHub\Revit2024-Bai3_Selection\RevitAddin3pointTML\RevitAddIn1\obj\Debug R24\
+RevitAddIn1
+none
+false
+;DEBUG;TRACE;DEBUG_R24;NETFRAMEWORK;NET48;
+
+8-1004562236
+
+81-1502495182
+45468750925
+Bai15ThucChien\ColumnRebar\View\ColumnRebarView.xaml;Bai4Parameter\RenameSheet\View\RenameSheetView.xaml;Bai5EdittingCreating\CreateSheet\View\CreateSheetView.xaml;Bai5EdittingCreating\DimForGrid\View\DimensionGridView.xaml;Bai5EdittingCreating\RealProject\DimensionGrid\View\DimensionGridView.xaml;Bai6GetGeometry\CreatePilesFormCad\View\CreatePilesFormCadView.xaml;Bai8ExternalEvent\View\CreateSheetView2.xaml;Views\RevitAddIn1View.xaml;
+
+True
+

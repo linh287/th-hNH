@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Bai15ThucChien\ColumnRebar\View\ColumnRebarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bai4Parameter\RenameSheet\View\RenameSheetView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bai5EdittingCreating\DimForGrid\View\DimensionGridView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bai5EdittingCreating\RealProject\DimensionGrid\View\DimensionGridView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Bai8ExternalEvent\View\CreateSheetView2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Bai15ThucChien\ColumnRebar\View\ColumnRebarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai4Parameter\RenameSheet\View\RenameSheetView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai5EdittingCreating\DimForGrid\View\DimensionGridView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai5EdittingCreating\RealProject\DimensionGrid\View\DimensionGridView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai5EdittingCreating\CreateSheet\View\CreateSheetView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai6GetGeometry\CreatePilesFormCad\View\CreatePilesFormCadView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Bai8ExternalEvent\View\CreateSheetView2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RevitAddIn1View.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

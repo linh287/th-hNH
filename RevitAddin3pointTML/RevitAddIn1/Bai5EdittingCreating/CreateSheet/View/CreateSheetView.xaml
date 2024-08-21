@@ -1,0 +1,80 @@
+﻿<Window x:Class="RevitAddIn1.Bai5EdittingCreating.CreateSheet.View.CreateSheetView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RevitAddIn1.Bai5EdittingCreating.CreateSheet.View"
+        xmlns:a="clr-namespace:RevitAddIn1.Bai5EdittingCreating.CreateSheet.ViewModel"
+        xmlns:da="clr-namespace:RevitAddIn1.Bai5EdittingCreating.CreateSheet.Model"
+        mc:Ignorable="d"
+        Title="CreateSheetView" Height="400" Width="400"
+        d:DataContext="{d:DesignInstance a:CreateSheetViewModel}"
+        >
+    <DockPanel Margin="6">
+        <Grid Height="40" DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+     
+      
+        </Grid>
+        <StackPanel Height="40"
+                    DockPanel.Dock="Bottom"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button Margin="6"
+           Command="{Binding ImportCommand}"
+             Width="68"
+               Height="22">
+                Import
+            </Button>
+            <Button Margin="6"
+                    Width="68"
+                    Height="22"
+                    Command="{Binding OkeCommand}"
+                    >
+                OK
+            </Button>
+            <Button Margin="6"
+                    Command="{Binding CloseCommand}"
+         Width="68"
+         Height="22">
+               Cancel
+            </Button>
+
+        </StackPanel>
+        <DataGrid Name="SheetDataGrid1"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  ItemsSource="{Binding CreateSheetModels}"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Sheet Name "
+                                    Binding="{Binding SheetName}"
+                                    IsReadOnly="True"
+                                    Width="*">
+                    
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Sheet Number"
+                                    Binding="{Binding SheetNumber}"
+                                    IsReadOnly="True"
+                                    Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Drawn By"
+                    Binding="{Binding DrawBy}"
+                    IsReadOnly="True"
+                    Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Checked By"
+                    Binding="{Binding CheckedBy}"
+                    IsReadOnly="True"
+                    Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+            
+        </DataGrid>
+
+
+    </DockPanel>
+</Window>
