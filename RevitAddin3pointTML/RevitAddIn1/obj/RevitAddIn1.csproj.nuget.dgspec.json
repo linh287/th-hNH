@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj": {}
+    "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\th-hNH\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj": {
+    "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\th-hNH\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj",
+        "projectUniqueName": "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\th-hNH\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj",
         "projectName": "RevitAddIn1",
-        "projectPath": "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj",
+        "projectPath": "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\th-hNH\\RevitAddin3pointTML\\RevitAddIn1\\RevitAddIn1.csproj",
         "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\RevitAddin3pointTML\\RevitAddIn1\\obj\\",
+        "outputPath": "C:\\Users\\Linh\\Documents\\GitHub\\Revit2024-Bai3_Selection\\th-hNH\\RevitAddin3pointTML\\RevitAddIn1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
